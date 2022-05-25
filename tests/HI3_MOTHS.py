@@ -10,15 +10,6 @@ hideturtle()
 speed(15)
 pensize(5)
 
-def square(l): #Funcion cuadrado
-    forward(l)
-    left(90)
-    forward(l)
-    left(90)
-    forward(l)
-    left(90)
-    forward(l)
-
 for i in range(2):
     fillcolor(colors[i])
     begin_fill()
@@ -32,9 +23,14 @@ for i in range(2):
 pu()
 goto(0, 10)
 forward(200)
+left(145)
 pd()
-left(90)
-circle(200, 180)
-circle(200, 180)
+
+def semi_c():
+    for i in range(90):
+        left(10)
+        forward(30)
+        
+semi_c()
 
 done()
