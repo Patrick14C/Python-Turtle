@@ -1,0 +1,35 @@
+from turtle import *
+
+title("Windows")
+setup(400, 400, 0, 0)
+hideturtle()
+pensize(5)
+speed(15)
+
+fillcolor("skyblue")
+begin_fill()
+pencolor("white")
+
+backward(88)
+home()
+forward(100)
+left(90)
+forward(120)
+left(110)
+forward(200)
+left(70)
+forward(120)
+left(70)
+forward(200)
+left(110)
+forward(140)
+pu()
+home()
+pd()
+left(90)
+forward(84)
+backward(185)
+
+end_fill()
+
+done()
