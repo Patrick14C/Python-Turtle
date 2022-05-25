@@ -20,7 +20,7 @@ turtle.title("I AM IRONMAN")
 ankur1Goto = (0, 120)
 ankur2Goto = (0, -30)
 ankur3Goto = (0, -220)
-turtle.speed(2)
+turtle.speed(15)
 
 
 def logo(a, b):
